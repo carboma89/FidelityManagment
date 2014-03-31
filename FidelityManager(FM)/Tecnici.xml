@@ -1,0 +1,73 @@
+<elenco>
+    <tecnico>
+        <ragioneSociale>Computer Service</ragioneSociale>
+        <numerTel>3483118090</numerTel>
+        <responsabile>Luciano Sassano</responsabile>
+        <mail>luciano@coserv.it</mail>
+        <id>1</id>
+    </tecnico>
+    <tecnico>
+        <ragioneSociale>Retail center</ragioneSociale>
+        <numerTel>33939047189</numerTel>
+        <responsabile>Enzo</responsabile>
+        <mail>vincenzo@retailservicegroup.it</mail>
+        <id>2</id>
+    </tecnico>
+    <tecnico>
+        <ragioneSociale>Sistemi Pos</ragioneSociale>
+        <numerTel>3939466086;823342598</numerTel>
+        <responsabile>Tammaro Vincenzo</responsabile>
+        <mail>vtammaro@sistemipos.it</mail>
+        <id>3</id>
+    </tecnico>
+    <tecnico>
+        <ragioneSociale>Top sistemi S.R.L</ragioneSociale>
+        <numerTel>071\2866522</numerTel>
+        <responsabile>Gabriele</responsabile>
+        <mail>assistenza@topsistemi.it</mail>
+        <id>4</id>
+    </tecnico>
+    <tecnico>
+        <ragioneSociale>Sipos Napoli</ragioneSociale>
+        <numerTel>0815591558</numerTel>
+        <responsabile>Umberto Meglio</responsabile>
+        <mail>umberto.meglio@sipos.it</mail>
+        <id>5</id>
+    </tecnico>
+    <tecnico>
+        <ragioneSociale>Briwse Informatica</ragioneSociale>
+        <numerTel>3381371995</numerTel>
+        <responsabile>Cassandro Scola</responsabile>
+        <mail>Null</mail>
+        <id>6</id>
+    </tecnico>
+    <tecnico>
+        <ragioneSociale>Tecnopoint</ragioneSociale>
+        <numerTel>3357313012</numerTel>
+        <responsabile>Ciro</responsabile>
+        <mail>Null</mail>
+        <id>7</id>
+    </tecnico>
+    <tecnico>
+        <ragioneSociale>San Giovanni Rotondo</ragioneSociale>
+        <numerTel>3357799546</numerTel>
+        <responsabile>Dott. Cassa Antonio</responsabile>
+        <mail>Null</mail>
+        <id>8</id>
+    </tecnico>
+    <tecnico>
+        <ragioneSociale>Tesi Square</ragioneSociale>
+        <numerTel>0172 476301</numerTel>
+        <responsabile>Mattia</responsabile>
+        <mail>finance@service.tesisquare.com</mail>
+        <id>9</id>
+    </tecnico>
+        <tecnico>
+        <ragioneSociale>DFSistemi Sas</ragioneSociale>
+        <numerTel>null</numerTel>
+        <responsabile>Vincenzo</responsabile>
+        <mail>helpdesk@dfsistemi.it</mail>
+        <id>10</id>
+    </tecnico>
+    
+</elenco>

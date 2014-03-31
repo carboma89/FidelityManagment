@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><elenco>
+    <pdv id="12">
+        <ragioneSociale>Iannaccone Sabino e F. (Atripalda)</ragioneSociale>
+        <telefono>825626347</telefono>
+        <responsabile>Iannaccone Sabino</responsabile>
+        <mail>iannacco1@raffaeleiannaccone.191.it</mail>
+        <stato>1</stato>
+        <respEst>1</respEst>
+    </pdv>
+    <pdv id="13">
+        <ragioneSociale>Cedes Alimentare S.R.L (Montella)</ragioneSociale>
+        <telefono>0827601333</telefono>
+        <responsabile>null</responsabile>
+        <mail>dimegliomontella@libero.it</mail>
+        <stato>1</stato>
+        <respEst>1</respEst>
+    </pdv>
+    <pdv id="14">
+        <ragioneSociale>Diemme S.R.L (Salerno)</ragioneSociale>
+        <telefono>089725882</telefono>
+        <responsabile>null</responsabile>
+        <mail>diemmesalerno@alice.it</mail>
+        <stato>1</stato>
+        <respEst>1</respEst>
+    </pdv>
+    <pdv id="15">
+        <ragioneSociale>Mtr S.R.L. (Baragiano)</ragioneSociale>
+        <telefono>3475622525</telefono>
+        <responsabile>null</responsabile>
+        <mail>supermercatimtr@yahoo.it</mail>
+        <stato>1</stato>
+        <respEst>2</respEst>
+    </pdv>
+    <pdv id="16">
+        <ragioneSociale>De Feo Rafaella and C. (Serino)</ragioneSociale>
+        <telefono>0825592522</telefono>
+        <responsabile>De Feo Rafaella</responsabile>
+        <mail>stefyrul86@hotmail.it</mail>
+        <stato>1</stato>
+        <respEst>2</respEst>
+    </pdv>
+    <pdv id="17">
+        <ragioneSociale>De Stefano Gennaro (Solofra)</ragioneSociale>
+        <telefono>0825531208</telefono>
+        <responsabile>null</responsabile>
+        <mail>soloframarket@alice.it</mail>
+        <stato>1</stato>
+        <respEst>2</respEst>
+    </pdv>
+    <pdv id="18">
+        <ragioneSociale>Ce.Si.Mi (Solofra)</ragioneSociale>
+        <telefono>0825581030</telefono>
+        <responsabile>null</responsabile>
+        <mail>cesimi@libero.it</mail>
+        <stato>1</stato>
+        <respEst>2</respEst>
+    </pdv>
+    <pdv id="19">
+        <ragioneSociale>D.T. Distribuzione Gio (Torchiara)</ragioneSociale>
+        <telefono>0974837142</telefono>
+        <responsabile>null</responsabile>
+        <mail>massimogiordanosrl@virgilio.it</mail>
+        <stato>1</stato>
+        <respEst>2</respEst>
+    </pdv>
+    <pdv id="20">
+        <ragioneSociale>Il Girasole S.R.L. (Nola)</ragioneSociale>
+        <telefono>0815110541</telefono>
+        <responsabile>null</responsabile>
+        <mail>supdierre@libero.it</mail>
+        <stato>1</stato>
+        <respEst>3</respEst>
+        </pdv>
+    <pdv id="21">
+        <ragioneSociale>Co.Vi. SNC (Altomonte)</ragioneSociale>
+        <telefono>0981946516</telefono>
+        <responsabile>Pasquale</responsabile>
+        <mail>covi.pasquale@tiscali.it</mail>
+        <stato>1</stato>
+        <respEst>0</respEst>
+    </pdv>
+    <pdv id="22">
+        <ragioneSociale>F.lli Speranza SNC (Torre Orsaia)</ragioneSociale>
+        <telefono>0974985032</telefono>
+        <responsabile>null</responsabile>
+        <mail>fratellisperanza@libero.it</mail>
+        <stato>1</stato>
+        <respEst>2</respEst>
+    </pdv>
+    <pdv id="23">
+        <ragioneSociale>Alba Store (Albanella)</ragioneSociale>
+        <telefono>0828780971</telefono>
+        <responsabile>null</responsabile>
+        <mail>albastore@gmail.com</mail>
+        <stato>1</stato>
+        <respEst>2</respEst>
+    </pdv>
+    <pdv id="24">
+        <ragioneSociale>Rizzo Sergio (Campagna)</ragioneSociale>
+        <telefono>082845220</telefono>
+        <responsabile>Rizzo Sergio</responsabile>
+        <mail>sidisrizzo@alice.it</mail>
+        <stato>1</stato>
+        <respEst>0</respEst>
+        </pdv>
+    <pdv id="25">
+        <ragioneSociale>Ennedue S.R.L. (Montoro Superiore)</ragioneSociale>
+        <telefono>0825521555</telefono>
+        <responsabile>null</responsabile>
+        <mail>ennedue.srl@virgilio.it</mail>
+        <stato>0</stato>
+        <respEst>4</respEst>
+        </pdv>
+    <pdv id="26">
+        <ragioneSociale>Supermercati Iris S.R.L (Cerrelli)</ragioneSociale>
+        <telefono>0828986666</telefono>
+        <responsabile>null</responsabile>
+        <mail>irisuno@tiscali.it</mail>
+        <stato>0</stato>
+        <respEst>4</respEst>
+    </pdv>
+    <pdv id="27">
+        <ragioneSociale>Supermercati Iris S.R.L. (Matinella)</ragioneSociale>
+        <telefono>0828984998</telefono>
+        <responsabile>null</responsabile>
+        <mail>irisdue@tiscali.it</mail>
+        <stato>0</stato>
+        <respEst>4</respEst>
+    </pdv>
+    <pdv id="28">
+        <ragioneSociale>Fratelli Caporale SNC (Palomonte)</ragioneSociale>
+        <telefono>0828994340</telefono>
+        <responsabile>null</responsabile>
+        <mail/>
+        <stato>1</stato>
+        <respEst>2</respEst>
+    </pdv>
+    <pdv id="29">
+        <ragioneSociale>Ferrara S.R.L. (Palma Campania)</ragioneSociale>
+        <telefono>0818246716</telefono>
+        <responsabile>Ferrara Biagio</responsabile>
+        <mail>ferrarabiagio3@alice.it</mail>
+        <stato>1</stato>
+        <respEst>0</respEst>
+    </pdv>
+    <pdv id="30">
+        <ragioneSociale>Meda Carni S.R.L (San Leonardo)</ragioneSociale>
+        <telefono>0897728404</telefono>
+        <responsabile>Carmine Del Regno</responsabile>
+        <mail>boxinfo.meda@e-moderna.com</mail>
+        <stato>1</stato>
+        <respEst>0</respEst>
+    </pdv>
+    <pdv id="31">
+        <ragioneSociale>Sabia Antonella (Rionero)</ragioneSociale>
+        <telefono>0972082377</telefono>
+        <responsabile>Sabia Antonella</responsabile>
+        <mail>grupposabia@gmail.com</mail>
+        <stato>1</stato>
+        <respEst>0</respEst>
+    </pdv>
+    <pdv id="32">
+        <ragioneSociale>Unirey S.R.L. (Via Roma)</ragioneSociale>
+        <telefono>0828351312</telefono>
+        <responsabile>Dino</responsabile>
+        <mail>dino@unirey.it</mail>
+        <stato>1</stato>
+        <respEst>0</respEst>
+    </pdv>
+    <pdv id="33">
+        <ragioneSociale>Unirey S.R.L. (Via Roma)</ragioneSociale>
+        <telefono>0828351312</telefono>
+        <responsabile>Dino</responsabile>
+        <mail>dino@unirey.it</mail>
+        <stato>1</stato>
+        <respEst>0</respEst>
+    </pdv>
+    <pdv id="34">
+        <ragioneSociale>Vimas (Salerno)</ragioneSociale>
+        <telefono>089794460</telefono>
+        <responsabile>Dino</responsabile>
+        <mail>dino@unirey.it</mail>
+        <stato>1</stato>
+        <respEst>0</respEst>
+    </pdv>
+    <pdv id="35">
+        <ragioneSociale>La Rocchellese S.R.L. (Roccagloriosa)</ragioneSociale>
+        <telefono>0974981385</telefono>
+        <responsabile>null</responsabile>
+        <mail>peip@libero.it</mail>
+        <stato>1</stato>
+        <respEst>2</respEst>
+    </pdv>
+    <pdv id="36">
+        <ragioneSociale>Supermercati Italia </ragioneSociale>
+        <telefono>0817735628</telefono>
+        <responsabile>null</responsabile>
+        <mail>supitalia@virgilio.it</mail>
+        <stato>0</stato>
+        <respEst>1</respEst>
+    </pdv>
+    <pdv id="37">
+        <ragioneSociale>Multiservice (Laino Borgo)</ragioneSociale>
+        <telefono>098185668</telefono>
+        <responsabile>null</responsabile>
+        <mail>multi_services@libero.it</mail>
+        <stato>1</stato>
+        <respEst>5</respEst>
+        </pdv>
+    <pdv id="38">
+        <ragioneSociale>Castellano Angela and C (Vico Equense)</ragioneSociale>
+        <telefono>0818024060</telefono>
+        <responsabile>Castellano Angela</responsabile>
+        <mail>panico67@virgilio.it</mail>
+        <stato>0</stato>
+        <respEst>5</respEst>
+    </pdv>
+    <pdv id="39">
+        <ragioneSociale>Califano Alimentari</ragioneSociale>
+        <telefono>081931794</telefono>
+        <responsabile>null</responsabile>
+        <mail>calpepsnc@alice.it</mail>
+        <stato>1</stato>
+        <respEst>7</respEst>
+        </pdv>
+    <pdv id="40">
+        <ragioneSociale>Battista Nevicella</ragioneSociale>
+        <telefono>082752480</telefono>
+        <responsabile>Battista</responsabile>
+        <mail>battistanevicella@libero.it</mail>
+        <stato>1</stato>
+        <respEst>0</respEst>
+    </pdv>
+    <pdv id="41">
+        <ragioneSociale>MOCCIA S.A.S. -MERCATO SAN SEVERINO- PIAZZA ALDO MORO</ragioneSociale>
+        <telefono>081969860</telefono>
+        <responsabile>null</responsabile>
+        <mail>moccia2000@gmail.com</mail>
+        <stato>1</stato>
+        <respEst>10</respEst>
+    </pdv>
+    <pdv id="42">
+        <ragioneSociale>Meda Carni (Zona Industriale)</ragioneSociale>
+        <telefono>3356639821</telefono>
+        <responsabile>Carmine Del Regno</responsabile>
+        <mail>boxinfo.meda@e-moderna.com</mail>
+        <stato>1</stato>
+        <respEst>9</respEst>
+    </pdv>
+    <pdv id="43">
+        <ragioneSociale>De Luca (Palinuro)</ragioneSociale>
+        <telefono/>
+        <responsabile>De Luca</responsabile>
+        <mail/>
+        <stato>0</stato>
+        <respEst>0</respEst>
+    </pdv>
+    <pdv id="44">
+    	<ragioneSociale>MOCCIA S.A.S. -BRACIGLIANO- VIA VES.</ragioneSociale>
+    	<telefono>081969860</telefono>
+    	<responsabile>null</responsabile>
+    	<mail>moccia2000@gmail.com</mail>
+    	<stato>1</stato>
+    	<respEst>10</respEst>
+        </pdv>
+    <pdv id="45">
+    	<ragioneSociale>MOCCIA SAS -SIANO- VIA BOTTA</ragioneSociale>
+    	<telefono>0815183456</telefono>
+    	<responsabile>null</responsabile>
+    	<mail>moccia2000@gmail.com</mail>
+    	<stato>1</stato>
+    	<respEst>10</respEst>
+    </pdv>
+    <pdv id="46">
+    	<ragioneSociale>MOCCIA SAS -SIANO- VIA ZAMBRANO</ragioneSociale>
+    	<telefono/>
+    	<responsabile>null</responsabile>
+    	<mail>moccia2000@gmail.com</mail>
+    	<stato>1</stato>
+    	<respEst>10</respEst>
+    </pdv>
+    <pdv id="47">
+    	<ragioneSociale>MOCCIA SAS -MERCATO SAN SEVERINO- CORSO DIAZ</ragioneSociale>
+    	<telefono>089820891</telefono>
+    	<responsabile>null</responsabile>
+    	<mail>moccia2000@gmail.com</mail>
+    	<stato>1</stato>
+    	<respEst>10</respEst>
+    </pdv>
+    <pdv id="48">
+    	<ragioneSociale>MOCCIA SAS -BRACIGLIANO- VIA VERDI</ragioneSociale>
+    	<telefono>081969860</telefono>
+    	<responsabile>null</responsabile>
+    	<mail>moccia2000@gmail.com</mail>
+    	<stato>1</stato>
+    	<respEst>10</respEst>
+    </pdv>
+    <pdv id="49">
+        <ragioneSociale>MOCCIA SAS -CASTEL SAN GIORGIO- VIA MANNARA</ragioneSociale>
+        <telefono/>
+        <responsabile>null</responsabile>
+        <mail>moccia2000@gmail.com</mail>
+        <stato>1</stato>
+        <respEst>10</respEst>
+    </pdv>
+    <pdv id="50">
+        <ragioneSociale>MOCCIA SAS -M.S.S SEVERINO- SAN VINCENZO</ragioneSociale>
+        <telefono/>
+        <responsabile>null</responsabile>
+        <mail>moccia2000@gmail.com</mail>
+        <stato>1</stato>
+        <respEst>10</respEst>
+    </pdv>
+    
+<pdv id="51">
+    <ragioneSociale>LEADER S.R.L. -PAGANI- VIA SALERNO</ragioneSociale> 
+    <telefono>0815152888</telefono>
+    <responsabile>null</responsabile>
+    <mail>leadersrl2010@libero.it</mail>
+    <stato>0</stato>
+    <respEst>0</respEst>
+</pdv>
+<pdv id="52">
+    <ragioneSociale>CentoVetrine</ragioneSociale>
+    <telefono>0819817034</telefono>
+    <responsabile>null</responsabile>
+    <mail>santamaria-antonio@virgilio.it</mail>
+    <stato>0</stato>
+    <respEst>0</respEst>
+</pdv>
+</elenco>

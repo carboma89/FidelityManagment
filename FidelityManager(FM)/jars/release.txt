@@ -1,0 +1,131 @@
+﻿Informazioni sulla versione
+Microsoft JDBC Driver 4.0 per SQL Server
+Marzo 2012
+
+
+INTRODUZIONE
+------------
+In questo file sono contenute informazioni aggiornate o importanti
+che integrano la documentazione di Microsoft JDBC Driver 4.0 per
+SQL Server. Leggere tutto il file prima di installare il driver JDBC.
+
+I commenti e suggerimenti inviati dagli utenti sono fondamentali,
+pertanto Microsoft farà il possibile per rispondere in maniera tempestiva.
+Per informazioni su come inviare un feedback tramite i forum online
+e i blog relativi al driver JDBC, vedere la pagina relativa a Microsoft
+JDBC Driver 4.0 per SQL Server all'indirizzo http://msdn.microsoft.com/data/jdbc.
+
+
+INSTALLAZIONE
+------------
+Le istruzioni per l'installazione del driver JDBC sono contenute nel file
+install.txt. Fare riferimento a tale file per informazioni sull'installazione
+del driver JDBC nei sistemi operativi Windows e Unix.
+
+SISTEMI OPERATIVI SUPPORTATI
+---------------------------
+Microsoft JDBC Driver 4.0 per SQL Server supporta i sistemi operativi seguenti: 
+Linux, Unix, Windows Server 2008,
+Windows Vista Service Pack 1, Windows Server 2008 R2 e Windows 7.
+
+L'elenco riportato in precedenza è un esempio di alcuni dei sistemi operativi supportati.
+Il driver JDBC è stato progettato per l'esecuzione in qualsiasi sistema operativo che
+supporti l'utilizzo di Java Virtual Machine (JVM).  Tuttavia, è stato testato solo sui
+sistemi operativi Sun Solaris, SUSE Linux e Windows Vista Service Pack 1 o versioni successive.
+
+CONTENUTO DELLA VERSIONE
+----------------
+Con il file eseguibile con estensione tar o zip di Microsoft JDBC Driver 4.0
+per SQL Server è possibile decomprimere i seguenti file nei percorsi specificati,
+relativi alla directory di installazione selezionata:
+
+<directory di installazione>\sqljdbc_<versione>\<lingua>\install.txt
+<directory di installazione>\sqljdbc_<versione>\<lingua>\release.txt
+<directory di installazione>\sqljdbc_<versione>\<lingua>\license.txt
+<directory di installazione>\sqljdbc_<versione>\<lingua>\sqljdbc.jar
+<directory di installazione>\sqljdbc_<versione>\<lingua>\sqljdbc4.jar
+<directory di installazione>\sqljdbc_<versione>\<lingua>\auth\x86\sqljdbc_auth.dll
+<directory di installazione>\sqljdbc_<versione>\<lingua>\auth\x64\sqljdbc_auth.dll
+<directory di installazione>\sqljdbc_<versione>\<lingua>\help\default.htm
+<directory di installazione>\sqljdbc_<versione>\<lingua>\help\index.htm
+<directory di installazione>\sqljdbc_<versione>\<lingua>\help\toc.htm
+<directory di installazione>\sqljdbc_<versione>\<lingua>\help\html\<pagine doc...>
+<directory di installazione>\sqljdbc_<versione>\<lingua>\help\local\<file doc...>
+<directory di installazione>\sqljdbc_<versione>\<lingua>\help\samples\<file di esempio...>
+<directory di installazione>\sqljdbc_<versione>\<lingua>\xa\xa_install.sql
+<directory di installazione>\sqljdbc_<versione>\<lingua>\xa\x86\sqljdbc_xa.dll
+<directory di installazione>\sqljdbc_<versione>\<lingua>\xa\x64\sqljdbc_xa.dll
+
+
+ELENCO DELLE MODIFICHE
+-----------
+Modifiche dalla versione 3.0 alla versione 4.0:
+
+1765616 Restituzione di nuovi valori java.sql.Type per date, time, datetime2, datetimeoffset per katmai e versioni successive tramite DatabaseMetadata.getTypeInfo
+
+1764334 Aggiunta del supporto per la funzionalità di traccia del timeout e degli XID di JDBC
+
+1750318 Correzione delle funzioni SQLServerDatabaseMetaData in caso di riutilizzo della connessione in pool.
+
+1768845 Coerenza del comportamento di setTimestamp e updateTimestamp rispetto all'arrotondamento. I dati saranno innanzitutto arrotondati
+        a 7 numeri decimali dal driver prima che vengano inviati al server.
+
+1770134 Correzione del comportamento di arrotondamento del valore massimo (23:59:59.999) del tipo di back-end relativo all'ora di updateTime
+
+1761042 Registrazione delle chiamate di chiusura tramite le proprietà DataSource Boolean
+
+1750330 Aggiornamento dello script SQL XA per evitare errori fuorvianti alla prima esecuzione
+
+1761393 Miglioramento delle tracce per i metodi unwrap
+
+1945579 Correzione del funzionamento di DatabaseMetaData.getSchemas con SQL Azure e SQL Server per tutte le regole di confronto.
+
+1963089 La proprietà di connessione hostNameInCertificate non è più obbligatoria per convalidare un certificato SSL in SQL Azure.
+
+1958531 Se una connessione a un server non configurato per il mirroring del database non viene completata correttamente durante l'accesso,
+        cioè il database non è disponibile, non viene di nuovo effettuato automaticamente il tentativo da parte del driver.
+
+1954701 Nell'eccezione generata in caso di inserimento di una riga duplicata è ora contenuto SQLState 23000.
+
+2055259 Miglioramento del messaggio di errore in caso di mancato completamento dell'autenticazione integrata dopo il caricamento di sqljdbc_auth.dll.
+
+2083373 In caso di grandi query con parametri contenenti argomenti non validi in SQL Azure viene ora generata un'eccezione che non comporta la chiusura della connessione.
+
+2084385 Restituzione di valori corretti con JRE 1.7 per tutte le date tramite getDate, getTimestamp, getDateTimeOffset.
+
+2105115 Correzione del funzionamento di getObject in un oggetto ResultSet ottenuto da DatabaseMetaData.getColumns.
+
+
+PROBLEMI NOTI
+------------
+Di seguito sono riportati alcuni problemi noti relativi a Microsoft JDBC Driver 4.0 per SQL Server:
+
+1) LIMITAZIONI RELATIVE AI METADATI DEI PARAMETRI CON L'ISTRUZIONE MERGE SQL
+
+In PreparedStatement.getParameterMetadata() viene generata un'eccezione
+SQLException in caso di utilizzo con una query MERGE con parametri.
+
+
+2) JavaKerberos e VM IBM
+
+In caso di esecuzione in ambienti Windows, potrebbe essere necessario specificare il nome dell'entità nel file di configurazione per garantire il funzionamento di Java Kerberos. Ad esempio: 
+SQLJDBCDriver {
+com.ibm.security.auth.module.Krb5LoginModule required useDefaultCcache=true credsType=initiator principal=principalname@principaldomain;
+};
+
+
+3) ELIMINAZIONE DELLA CONNESSIONE CON SQL AZURE
+
+Durante la connessione a SQL Azure, è possibile che le connessioni inattive siano terminate da un componente di rete,
+ad esempio un firewall, dopo un periodo di inattività. Per evitare l'eliminazione di connessioni inattive da un componente
+di rete, è consigliabile scegliere le seguenti impostazioni del Registro di sistema, o le relative equivalenti non Windows,
+nel sistema operativo in cui viene caricato il driver:
+           
+           Impostazione del Registro di sistema                                                                     Valore consigliato
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\KeepAliveTime                 30000      
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\KeepAliveInterval             1000
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\TcpMaxDataRetransmission      10
+  
+
+
+
