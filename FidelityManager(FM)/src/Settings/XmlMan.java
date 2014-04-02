@@ -469,7 +469,7 @@ public class XmlMan {
 	 */
 	public static int updateXmlPdv(String tag, String value,Pdv p) throws TransformerException, SAXException, IOException, ParserConfigurationException{
 		Logger log = Logger.getLogger("myLog");
-		log.debug("Aggiornamento Pdv, tag: "+tag+"con il valore: "+value+"Del");
+		log.debug("Aggiornamento Pdv, tag: "+tag+"con il valore: "+value+"Del pdv "+p.getRagioneSociale());
 		DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder docBuilder;
 		docBuilder = docFactory.newDocumentBuilder();
@@ -483,14 +483,14 @@ public class XmlMan {
 			Element pdv = (Element) padre.item(i);
 			Element ragSocTag = (Element) pdv.getElementsByTagName("ragioneSociale").item(0);
 			String ragSoc = ragSocTag.getTextContent();
-			if(ragSoc.equals(String.valueOf(p.getPDV()))){//ricerca della ragione sociale
-				pdv.getElementsByTagName(value).item(0).setTextContent(value);
+			if(ragSoc.equals(p.getRagioneSociale())){//ricerca della ragione sociale
+				pdv.getElementsByTagName(tag).item(0).setTextContent(value);
 				doc.normalize();
 				TransformerFactory transformerFactory = TransformerFactory.newInstance();
 				Transformer transformer;	
 				transformer = transformerFactory.newTransformer();	
 				DOMSource source = new DOMSource(doc);
-				StreamResult result = new StreamResult(new File(Config.getErrFile()));
+				StreamResult result = new StreamResult(new File(Config.getPdvFile()));
 				transformer.transform(source, result);
 				return 0;
 				}
@@ -511,28 +511,28 @@ public class XmlMan {
 	 */
 	public static int updateXmlTecnico(String tag, String value,Tecnico t) throws TransformerException, SAXException, IOException, ParserConfigurationException{
 		Logger log = Logger.getLogger("myLog");
-		log.debug("Aggiornamento file: Pdv tag: "+tag+"con il valore: "+value);
+		log.debug("Aggiornamento file Tecnico.xml. Tecnico : "+t.getRagioneSociale()+" tag: "+tag+" con il valore: "+value);
 		DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder docBuilder;
 		docBuilder = docFactory.newDocumentBuilder();
-		Document doc = docBuilder.parse(Config.getPdvFile());
+		Document doc = docBuilder.parse(Config.getTecFile());
 		if(doc==null){
 			log.fatal("\nErrore nell'apertura del file degli errori:"+Config.getErrFile()+"\n");
 			return 0;
 		}
-		NodeList padre = doc.getElementsByTagName("elenco");
+		NodeList padre = doc.getElementsByTagName("tecnico");
 		for(int i=0;i<padre.getLength();i++){
-			Element pdv = (Element) padre.item(i);
-			Element ragSocTag = (Element) pdv.getElementsByTagName("id").item(0);
-			String ragSoc = ragSocTag.getTextContent();
-			if(ragSoc.equals(String.valueOf(String.valueOf(t.getId())))){//ricerca della ragione sociale
-				pdv.getElementsByTagName(value).item(0).setTextContent(value);
+			Element tec = (Element) padre.item(i);
+			Element IdTag = (Element) tec.getElementsByTagName("id").item(0);
+			String IdSoc = IdTag.getTextContent();
+			if(IdSoc.equals(String.valueOf(t.getId()))){//ricerca della ragione sociale
+				tec.getElementsByTagName(tag).item(0).setTextContent(value);
 				doc.normalize();
 				TransformerFactory transformerFactory = TransformerFactory.newInstance();
 				Transformer transformer;	
 				transformer = transformerFactory.newTransformer();	
 				DOMSource source = new DOMSource(doc);
-				StreamResult result = new StreamResult(new File(Config.getErrFile()));
+				StreamResult result = new StreamResult(new File(Config.getTecFile()));
 				transformer.transform(source, result);
 				return 0;
 				}
